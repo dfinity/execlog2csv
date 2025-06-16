@@ -36,3 +36,16 @@ go fmt . # format
 golangci-lint run # run lint checks
 ```
 
+## Release
+
+Create a tag:
+
+```shell
+git tag v0.0.3
+```
+
+Push the tag to trigger release creation:
+
+```shell
+git push origin v0.0.3
+```
